@@ -1,0 +1,72 @@
+[submodule "kyubi/core"]
+	path = src/core
+	url = git@github.com:kyubiproject/core.git
+	branch = master
+[submodule "kyubi/helper"]
+	path = src/helper
+	url = git@github.com:kyubiproject/helper.git
+	branch = master
+[submodule "kyubi/route"]
+	path = src/route
+	url = git@github.com:kyubiproject/route.git
+	branch = master
+[submodule "kyubi/web"]
+	path = src/web
+	url = git@github.com:kyubiproject/web.git
+	branch = master
+[submodule "kyubi/cli"]
+	path = src/cli
+	url = git@github.com:kyubiproject/cli.git
+	branch = master
+[submodule "kyubi/db"]
+	path = src/db
+	url = git@github.com:kyubiproject/db.git
+	branch = master
+[submodule "kyubi/model"]
+	path = src/model
+	url = git@github.com:kyubiproject/model.git
+	branch = master
+[submodule "kyubi/validate"]
+	path = src/validate
+	url = git@github.com:kyubiproject/validate.git
+	branch = master
+[submodule "kyubi/renderer"]
+	path = src/renderer
+	url = git@github.com:kyubiproject/renderer.git
+	branch = master
+[submodule "kyubi/ui"]
+	path = src/ui
+	url = git@github.com:kyubiproject/ui.git
+	branch = master
+[submodule "kyubi/api"]
+	path = src/api
+	url = git@github.com:kyubiproject/api.git
+	branch = master
+[submodule "kyubi/admin"]
+	path = src/admin
+	url = git@github.com:kyubiproject/admin.git
+	branch = master
+[submodule "kyubi/meta"]
+	path = src/meta
+	url = git@github.com:kyubiproject/meta.git
+	branch = master
+[submodule "kyubi/auth"]
+	path = src/auth
+	url = git@github.com:kyubiproject/auth.git
+	branch = master
+[submodule "kyubi/studio"]
+	path = src/studio
+	url = git@github.com:kyubiproject/studio.git
+	branch = master
+[submodule "kyubi/ddml"]
+	path = src/ddml
+	url = git@github.com:kyubiproject/ddml.git
+	branch = master
+[submodule "kyubi/mail"]
+	path = src/mail
+	url = git@github.com:kyubiproject/mail.git
+	branch = master
+[submodule "kyubi/workflow"]
+	path = src/workflow
+	url = git@github.com:kyubiproject/workflow.git
+	branch = master

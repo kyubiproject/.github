@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Ejecuta git diff-index en cada submódulo y realiza el commit solo si hay cambios
 git submodule foreach '
