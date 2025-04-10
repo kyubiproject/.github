@@ -1,0 +1,11 @@
+#!/bin/sh
+
+STAGED_FILES=$(git diff --name-only --cached)
+
+~/.config/composer/vendor/bin/pint --preset psr12 --repair -- $STAGED_FILES
+
+RESULT=$?
+
+wait $!
+
+git add $STAGED_FILES
