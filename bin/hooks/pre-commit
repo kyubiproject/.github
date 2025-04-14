@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Obtener solo archivos staged que existen realmente
+STAGED_FILES=$(git diff --name-only --cached | while read -r file; do [ -f "$file" ] && echo "$file"; done)
+
+if [ -z "$STAGED_FILES" ]; then
+    echo "No hay archivos staged para formatear"
+    exit 0
+fi
+
+# Ejecutar pint solo en archivos existentes
+~/.config/composer/vendor/bin/pint --preset psr12 --repair -- $STAGED_FILES
+
+RESULT=$?
+
+# Esperar a que pint termine
+wait $!
+
+git add $STAGED_FILES
